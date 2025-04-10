@@ -15,5 +15,5 @@ steps:
     git config --global user.email "marimuthu.m@sutherlandglobal.com"
     git config --global user.name "muthukutty90-tech"
     git remote add azure https://github.com/muthukutty90-tech/langflow
-    git pull origin main
+    git push azure HEAD:main --force
   displayName: 'Sync GitHub to Azure DevOps'
