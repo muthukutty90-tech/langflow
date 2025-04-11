@@ -17,7 +17,7 @@ steps:
     git config user.name "muthukutty90-tech"
     
     echo "Adding Azure DevOps remote..."
-    git remote add azure https://6gFREwR81RGFj9Pr44cVhHdqaKSsQyLrLbNQ0xD8a45EdagRJqcfJQQJ99BDACAAAAATb2pZAAASAZDO4azY@dev.azure.com/SutherlandGlobal/Infra_Devops/_git/Test
+    git remote add azure https://6gFREwR81RGFj9Pr44cVhHdqaKSsQyLrLbNQ0xD8a45EdagRJqcfJQQJ99BDACAAAAATb2pZAAASAZDO4azY@dev.azure.com/SutherlandGlobal/SentinelRD/_git/Robility_flow
     
     echo "Pushing code to Azure DevOps..."
     git push azure main --force
